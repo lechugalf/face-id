@@ -14,10 +14,10 @@ def set_known_faces(dirname):
 def main():
 
     #load and encoding known faces
-    set_known_faces(sys.argv[1])
+    set_known_faces(sys.argv[2])
 
     #load imagen to identify their faces
-    test_img = facer.load_image_file(sys.argv[2])
+    test_img = facer.load_image_file(sys.argv[1])
 
     #find all faces in the test image and encoding them
     faces = facer.face_locations(test_img)
