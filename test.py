@@ -24,4 +24,5 @@ def get_faces(img, model):
     for face in face_locations:
         top, right, bottom, left = face
         faces.append(img[top:bottom, left:right])
-    return faces"""
+    return faces
+"""
