@@ -52,6 +52,12 @@ cd IdentifyFacesWebcam
 python IdentifyFacesWebcam.py directory-of-known-recognized-faces
 ```
 
+##### Run Test
+You can test how works running IdentifyFacesWebcam.py as follow
+
+```bash
+python IdentifyFacesWebcam.py faces/
+```
 
 ## Authors
 
