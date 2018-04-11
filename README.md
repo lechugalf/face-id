@@ -38,12 +38,20 @@ cd IdentifyFaces
 python IdentifyFaces.py image-to-identify directory-of-known-recognized-faces
 ```
 
-#### Run Test
+##### Run Test
 You can test how works running IdentifyFaces.py as follow
 
 ```bash
 python IdentifyFaces.py test1.jpg faces/
 ```
+
+#### Run IdentifyFacesWebcam.py
+You have pass as the first argument the folder with de images of the faces to recognize in the webcam
+```bash
+cd IdentifyFacesWebcam
+python IdentifyFacesWebcam.py directory-of-known-recognized-faces
+```
+
 
 ## Authors
 
