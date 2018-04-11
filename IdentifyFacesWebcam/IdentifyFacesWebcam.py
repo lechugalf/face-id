@@ -20,12 +20,11 @@ def set_known_faces(dirname):
 def main():
 
     #load and encoding known faces
-    set_known_faces('faces/')
+    set_known_faces(sys.argv[1])
 
     #load webcam
     capture = cv2.VideoCapture(0)
 
-    #
     flag = True
 
     #loop of video

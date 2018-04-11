@@ -5,6 +5,7 @@ import cv2
 known_face_encodings = []
 known_face_names = []
 
+#load images and their names from a directory
 def set_known_faces(dirname):
     for img in fnmatch.filter(os.listdir(dirname), '*.jpg'):
         image = facer.load_image_file(dirname + img)
