@@ -62,6 +62,7 @@ python IdentifyFacesWebcam.py faces/
 ## Authors
 
 * **Alfonso Lechuga** - *Initial work* - [lechugalf](https://github.com/lechugalf)
+* Visit [face recognition](https://github.com/ageitgey/face_recognition)  to know more about the creators for face recognition module
 
 ## License
 
